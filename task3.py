@@ -1,7 +1,8 @@
 import sys , random
 def  compute(n):
     i = 0; s = 0
-    while i  <= n:
+    while i < n:
+        print(i)
         s +=  random.random ()
         i += 1
     return s/n
